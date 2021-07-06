@@ -2,13 +2,16 @@ import React from "react";
 
 import "./Dashboard.css";
 import DashboardCard from "../DashboardCard/DashboardCard";
+import awesomeIcon from "../../assets/awesome.svg";
+import smileIcon from "../../assets/smile.svg";
+import happyIcon from "../../assets/happy.svg";
 
 function Dashboard() {
   return (
     <div className="app__dashboard">
-      <DashboardCard cardType="awesome" srcUrl="../../assets/awesome.svg" />
-      <DashboardCard cardType="smile" srcUrl="../../assets/smile.svg" />
-      <DashboardCard cardType="happy" srcUrl="../../assets/happy.svg" />
+      <DashboardCard cardType="awesome" icon={awesomeIcon} />
+      <DashboardCard cardType="happy" icon={happyIcon} />
+      <DashboardCard cardType="smile" icon={smileIcon} />
     </div>
   );
 }

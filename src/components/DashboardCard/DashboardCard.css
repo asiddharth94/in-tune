@@ -5,16 +5,21 @@
   border-radius: 5px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(#e35d5b, #e53935);
+  position: relative;
+}
+
+.app__dashboard__card img {
+  position: absolute;
 }
 
 .awesome {
   background-image: linear-gradient(#93f9b9, #1d976c);
 }
 
-.smile {
+.happy {
   background-image: linear-gradient(#ffb75e, #ed8f03);
 }
 
-.happy {
+.smile {
   background-image: linear-gradient(#e35d5b, #e53935);
 }

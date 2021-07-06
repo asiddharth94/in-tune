@@ -2,14 +2,11 @@ import React from "react";
 
 import "./DashboardCard.css";
 
-function DashboardCard({ cardType, srcUrl }) {
+function DashboardCard({ cardType, icon }) {
   return (
-    <>
-      {" "}
-      <div className={`app__dashboard__card ${cardType}`}>
-        <img src={srcUrl} alt="emoji" />
-      </div>
-    </>
+    <div className={`app__dashboard__card ${cardType}`}>
+      <img src={icon} alt="emoji" />
+    </div>
   );
 }
 
