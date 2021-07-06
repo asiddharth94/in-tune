@@ -9,9 +9,21 @@ import happyIcon from "../../assets/happy.svg";
 function Dashboard() {
   return (
     <div className="app__dashboard">
-      <DashboardCard cardType="awesome" icon={awesomeIcon} />
-      <DashboardCard cardType="happy" icon={happyIcon} />
-      <DashboardCard cardType="smile" icon={smileIcon} />
+      <DashboardCard
+        cardType="awesome"
+        cardText="Yay! It was Awesome."
+        icon={awesomeIcon}
+      />
+      <DashboardCard
+        cardType="happy"
+        cardText="It was Gooooooood."
+        icon={happyIcon}
+      />
+      <DashboardCard
+        cardType="smile"
+        cardText="It's Okay! I'll be back."
+        icon={smileIcon}
+      />
     </div>
   );
 }
