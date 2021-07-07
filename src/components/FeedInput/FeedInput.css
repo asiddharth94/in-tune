@@ -1,0 +1,23 @@
+.feed__input {
+  box-sizing: border-box;
+  height: auto;
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.feed__input textarea {
+  width: 80%;
+  height: 64px;
+  resize: none;
+}
+
+.feed__input__status {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

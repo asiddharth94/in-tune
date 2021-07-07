@@ -4,9 +4,14 @@ import "./Header.css";
 import Avatar from "../Avatar/Avatar";
 
 function Header() {
+  const appTitle = "InTune";
+
   return (
     <div className="app__header">
-      <Avatar />
+      <div className="app__header__content">
+        <h1>{appTitle}</h1>
+        <Avatar />
+      </div>
     </div>
   );
 }

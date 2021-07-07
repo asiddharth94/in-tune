@@ -16,7 +16,7 @@ function Dashboard() {
       />
       <DashboardCard
         cardType="happy"
-        cardText="It was Gooooooood."
+        cardText="Hmm.. It was Good."
         icon={happyIcon}
       />
       <DashboardCard
