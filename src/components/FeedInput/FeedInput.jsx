@@ -11,7 +11,7 @@ function FeedInput() {
         <input type="radio" />
         <input type="radio" />
       </div>
-      <button></button>
+      <button className="feed__post__btn">Send</button>
     </div>
   );
 }

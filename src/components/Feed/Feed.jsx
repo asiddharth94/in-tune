@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./Feed.css";
 import FeedInput from "../FeedInput/FeedInput";
 import FeedMetrix from "../FeedMetrix/FeedMetrix";
 
